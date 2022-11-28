@@ -1,0 +1,185 @@
+/* Default styles for the browser */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    font-family: 'Poppins';
+}
+
+header .inner{
+    width: 1300px; /* This is the inner width of the content inside of your header (80%, etc) */
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+header .logo{
+    display: table;
+    height: 100%;
+    float: left;
+}
+
+header .logo div{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .logo img{
+    height: 50px;
+    margin-top: 5px; /* Optical alignment of the logo */
+}
+
+header nav{
+    float: right;
+    height: 100%;
+}
+
+header nav li{
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+header nav li:last-of-type{
+    margin-right: 0;
+}
+
+header nav span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header nav a{
+    color: #101010;
+}
+
+header nav .button{
+    background-color: #1ab26b; /* This HEX is the color of the button */
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+header nav .button:hover{
+    filter: brightness(1.05);
+}
+
+
+.footer {
+width: 100vw;
+position: absolute;
+display: block;
+overflow: hidden;
+padding: 70px;
+box-sizing: border-box;
+background-color: #101010;
+
+}
+
+.inner_footer {
+display: block;
+margin: 0 auto;
+width: 1100px;
+height: 100%;
+
+}
+
+
+.inner_footer .logo_containter {
+width: 35%;
+float: left;
+height: 100%;
+display: block;
+}
+
+.inner_footer .logo_containter img {
+width: 65px;
+height: auto;
+
+}
+
+.inner_footer .footer_1 {
+width: calc(21.666666667% - 20px);
+margin-right: 10px;
+float: left;
+height: 100%;
+}
+
+.inner_footer .footer_1:last-child {
+margin-left: 0;
+}
+
+.inner_footer .footer_1 h1 {
+font-family: Poppins;
+font-size: 22px;
+color: white;
+display: block;
+width: 100%;
+margin-bottom: 20px;
+}
+
+.inner_footer .footer_1 a{
+font-family: Poppins;
+font-size: 20px;
+color: white;
+display: block;
+font-weight: 200;
+width: 100%;
+padding-bottom: 5px;
+}
+
+.inner_footer .footer_1 li {
+display: inline-block;
+padding: 0 5px;
+font-size: 20px:;
+}
+
+.inner_footer .footer_1 span {
+color: white;
+font-family: Poppins;
+font-size: 15px;
+font-weight: 200;
+display: block;
+width: 100%;
+padding-top: 20px;
+
+}
+
+@media(max-width: 800px){
+.footer .inner_footer{
+	width: 90%;
+}
+.inner_footer .logo_containter
+.inner_footer .footer_1{
+width: 100%;
+margin-bottom: 30px;
+
+	}
+}
+
+h1 {
+font-family: Poppins;
+}
+
+p {
+font-family: Poppins;
+font-size: 20px;
+
+
+}
+
+h3 {
+color: blue;
+font-family: Poppins;
+font-size: 25px;
+
+}
